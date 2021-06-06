@@ -16,20 +16,20 @@ function App(){
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <nav className="App-header__navy">
-          <Link to="/">Quiz</Link>
-          <Link to="/history">History</Link>
-          <Link to="/todo">Todo</Link>
-          <Link to="/QuizHook">Quiz Hook</Link>
+          <Link to="/js-quiz/Quiz">Quiz</Link>
+          <Link to="/js-quiz/history">History</Link>
+          <Link to="/js-quiz/todo">Todo</Link>
+          <Link to="/js-quiz/QuizHook">Quiz Hook</Link>
         </nav>
         <div>
           <SelectFile />
         </div>
       </header>
       <div className="App-content">
-        <Route exact path="/" render={ (props) => <Quiz {...props} /> } />
-        <Route exact path="/history" render={ (props) => <History {...props} /> } />
-        <Route exact path="/todo" render={ (props) => <TodoList {...props} /> } />
-        <Route exact path="/QuizHook" render={ (props) => <QuizHook {...props} /> } />
+        <Route exact path="/js-quiz/Quiz" render={ (props) => <Quiz {...props} /> } />
+        <Route exact path="/js-quiz/history" render={ (props) => <History {...props} /> } />
+        <Route exact path="/js-quiz/todo" render={ (props) => <TodoList {...props} /> } />
+        <Route exact path="/js-quiz/QuizHook" render={ (props) => <QuizHook {...props} /> } />
       </div>
     </div>
   );
