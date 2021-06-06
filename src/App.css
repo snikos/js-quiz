@@ -1,31 +1,155 @@
-.App {
+ul,ol,li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-content {
+  max-width: 740px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+/*
+.App-form,
+.App-form__result {
+  max-width: 740px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+*/
+
+.App-form__title{
+  margin: 6px auto 0;
+  box-shadow: 0px 0px 0px 1px #b5afaf;
+}
+
+.App-form__item{
+  padding: 6px 0;
+  box-shadow: inset 0px 0px 0px 1px #b5afaf;
+}
+
+.App-reader {
+  margin: 0 auto;
+  padding: 0 22px;
   text-align: center;
 }
-
 .App-logo {
-  height: 40vmin;
+  vertical-align: middle;
   pointer-events: none;
+  margin-top: -5px;
+  margin-bottom: -8px;
+  width: 64px;
 }
 
+.App-list__li{
+  padding: 6px;
+}
+
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+*/
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #b9ffc1;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-header__navy{
+  display: flex;
+  padding: 4px 0;
+  align-items: center;
+}
+
+.App-header__navy a{
+  background-color: #fff;
+  color: #d00f17;
+  font-size: 16px;
+  padding: 4px 8px;
+  margin: 1px;
+  text-decoration: none;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.App-form__label{
+  display: block;
+  cursor: pointer;
+  padding:  6px 12px;
+}
+.App-form__label:hover {
+  background-color: #dedede;
+}
+
+.App-form__input {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: bottom;
+}
+
+.showItem .active {
+  background-color: #95ce54;
+}
+
+.App-table {
+  border-spacing: 1px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.App-table thead,
+.App-table tr :first-child{
+  background-color: #b9ffc1;
+}
+
+.App-table td {
+  padding: 4px 8px;
+  border: 1px solid #b9ffc1;
+}
+
+.App-code__text{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+  line-height: 20px;
+  padding: 4px 16px;
+  margin: 4px auto 0;
+}
+.App-code__box {
+  display: block;
+  background-color: #d7e6ff;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: monospace, sans-serif, math;
+  padding: 4px 16px;
+  margin: 0 auto;
+}
+
+.dpl-flex {
+  display: flex;
+}
+.p-10 {
+  padding: 10px;
+}
+
+.App-pagination__page {
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.App-pagination__active {
+  border: 1px solid red;
 }
 
 @keyframes App-logo-spin {
