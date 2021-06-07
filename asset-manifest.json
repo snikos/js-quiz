@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/js-quiz/static/css/main.590e0efe.chunk.css",
-    "main.js": "/js-quiz/static/js/main.2d86ed8c.chunk.js",
-    "main.js.map": "/js-quiz/static/js/main.2d86ed8c.chunk.js.map",
+    "main.css": "/js-quiz/static/css/main.14f84aa5.chunk.css",
+    "main.js": "/js-quiz/static/js/main.911c3c06.chunk.js",
+    "main.js.map": "/js-quiz/static/js/main.911c3c06.chunk.js.map",
     "runtime-main.js": "/js-quiz/static/js/runtime-main.0e6b3e15.js",
     "runtime-main.js.map": "/js-quiz/static/js/runtime-main.0e6b3e15.js.map",
-    "static/js/2.63a68b07.chunk.js": "/js-quiz/static/js/2.63a68b07.chunk.js",
-    "static/js/2.63a68b07.chunk.js.map": "/js-quiz/static/js/2.63a68b07.chunk.js.map",
+    "static/js/2.debe931f.chunk.js": "/js-quiz/static/js/2.debe931f.chunk.js",
+    "static/js/2.debe931f.chunk.js.map": "/js-quiz/static/js/2.debe931f.chunk.js.map",
     "index.html": "/js-quiz/index.html",
-    "static/css/main.590e0efe.chunk.css.map": "/js-quiz/static/css/main.590e0efe.chunk.css.map",
-    "static/js/2.63a68b07.chunk.js.LICENSE.txt": "/js-quiz/static/js/2.63a68b07.chunk.js.LICENSE.txt"
+    "static/css/main.14f84aa5.chunk.css.map": "/js-quiz/static/css/main.14f84aa5.chunk.css.map",
+    "static/js/2.debe931f.chunk.js.LICENSE.txt": "/js-quiz/static/js/2.debe931f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e6b3e15.js",
-    "static/js/2.63a68b07.chunk.js",
-    "static/css/main.590e0efe.chunk.css",
-    "static/js/main.2d86ed8c.chunk.js"
+    "static/js/2.debe931f.chunk.js",
+    "static/css/main.14f84aa5.chunk.css",
+    "static/js/main.911c3c06.chunk.js"
   ]
 }
