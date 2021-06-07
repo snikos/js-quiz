@@ -9,14 +9,14 @@ ul,ol,li{
   min-width: 320px;
 }
 
-/*
-.App-form,
-.App-form__result {
-  max-width: 740px;
-  margin: 0 auto;
-  min-width: 320px;
+
+.App-Dani {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #b9ffc1;
 }
-*/
 
 .App-form__title{
   margin: 6px auto 0;
