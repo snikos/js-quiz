@@ -1,3 +1,4 @@
 https://snikos.github.io/js-quiz/
 https://snikos.github.io/js-quiz/?/history
 https://snikos.github.io/js-quiz/?/Dani
+https://snikos.github.io/js-quiz/?/Listofquiz
