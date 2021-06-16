@@ -29,5 +29,6 @@
 	{"qText": "What is x equal to?", "qCode": "let x = (\" -9 \" - 5);\nx = ?", "answers":["\"-9-5\"","-14","-4","\"-14\"","NaN"], "hint":"-14", "typos": "radio", "id": 27, "_page": 7},
 	{"qText": "What is x.length equal to?", "qCode": "let x = Number(\"  3 \");\nx.length = ?", "answers":["0","1","null","undefined"], "hint":"undefined", "typos": "radio", "id": 28, "_page": 8},
 	{"qText": "What is Sum equal to?", "qCode": "let sum = Boolean(0) + Boolean(1);\nSum = ?", "answers":["0","1","true","false","NaN","undefined"], "hint":"1", "typos": "radio", "id": 29, "_page": 8},
-	{"qText": "What is x equal to?", "qCode": "let x = (typeof alert === 'function') + Boolean('object');\nx = ?", "answers":["-2","-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 30, "_page": 8}
+	{"qText": "What is x equal to?", "qCode": "let x = (typeof alert === 'function') + Boolean('object');\nx = ?", "answers":["-2","-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 30, "_page": 8},
+	{"qText": "What is x equal to?", "qCode": "let x = isNaN(+\"1px\") + isNaN(0/0);\nx = ?", "answers":["-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 31, "_page": 8}
 ]

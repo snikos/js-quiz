@@ -1,7 +1,7 @@
 [
 	{"qText": "What is the expression equal to?", "qCode": "var x = ((i=0)=>({valueOf:()=>i--}))();\n console.log((x===x) && (x>x));", "answers":["NaN","undefined","true","false"], "hint":"true", "typos": "radio", "id": 0, "_page": 1},
 	{"qText": "What is x equal to?", "qCode": "let x = parseInt(\"010*020\".replace( /\\b0+\\B/g, \"\" ));\n x = ?", "answers":["10","20","100","120","200","210"], "hint":"10", "typos": "radio", "id": 1, "_page": 1},
-	{"qText": "What is the expression equal to?", "qCode": "console.log(((10*1).toString()) + 10);", "answers":["10","100","1010","0101","101010"], "hint":"1010", "typos": "radio", "id": 2, "_page": 1},
+	{"qText": "What is the expression equal to?", "qCode": "console.log(((10*1).toString()) + 10);", "answers":["10","20","1010","0101","101010"], "hint":"1010", "typos": "radio", "id": 2, "_page": 1},
 	{"qText": "What is x equal to?", "qCode": "let x = [1,2,3,4,].length + [1,2,,4,].length;\nx = ?", "answers":["0","4","8","9","10"], "hint":"8", "typos": "radio", "id": 3, "_page": 1},
 	{"qText": "What is x equal to?", "qCode": "let x = parseInt(10.10, 10) - isNaN(NaN) + Math.abs(-1.0);\nx = ?", "answers":["-1","1","9","10","11","NaN","undefined"], "hint":"10", "typos": "radio", "id": 4, "_page": 1},
 	{"qText": "What is x equal to?", "qCode": "let x = Math.cbrt(8) * Math.sqrt(16);\nx = ?", "answers":["1","8","16","128"], "hint":"8", "typos": "radio", "id": 5, "_page": 2},
