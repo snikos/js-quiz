@@ -1,0 +1,7 @@
+[
+	{"qText": "Which methods exist in JS?", "qCode": "--", "answers":["insertAdjacentDOM","insertAdjacentHTML","insertAdjacentContent","insertAdjacentText","insertAdjacentElement"], "hint":["insertAdjacentHTML","insertAdjacentText","insertAdjacentElement"], "typos": "checkbox", "id": 0, "_page": 1},
+	{"qText": "Which methods exist in JS?", "qCode": "--", "answers":["insert","append","add","prepend","before","after"], "hint":["append","prepend","before","after"], "typos": "checkbox", "id": 1, "_page": 1},
+	{"qText": "Which event handlers exist in JS?", "qCode": "--", "answers":["EventListener","addEventListener","removeEventListener","clickEventListener"], "hint":["addEventListener","removeEventListener"], "typos": "checkbox", "id": 2, "_page": 1},
+	{"qText": "Which time methods exist in JS?", "qCode": "--", "answers":["getHours","getDate","getMonth","getYear","getSeconds","getDays"], "hint":["getHours","getDate","getMonth","getSeconds"], "typos": "checkbox", "id": 3, "_page": 1},
+	{"qText": "Which methods exist in classList?", "qCode": "--", "answers":["hide","add","fade","toggle","contains","matches","remove","includes"], "hint":["add","toggle","contains","remove"], "typos": "checkbox", "id": 4, "_page": 2}
+]
