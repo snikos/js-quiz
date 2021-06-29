@@ -19,7 +19,7 @@
 	{"qText": "What is x equal to?", "qCode": "let x = Number(false);\nx = ?", "answers":["0","1","NaN","undefined"], "hint":"0", "typos": "radio", "id": 17, "_page": 5},
 	{"qText": "What is x equal to?", "qCode": "let x = Number(true);\nx = ?", "answers":["null","NaN","undefined","0","1"], "hint":"1", "typos": "radio", "id": 18, "_page": 5},
 	{"qText": "What is x equal to?", "qCode": "let x = null + 1;\nx = ?", "answers":["\"null\"","\"1\"","1","undefined","NaN"], "hint":"1", "typos": "radio", "id": 19, "_page": 5},
-	{"qText": "What is x equal to?", "qCode": "let x = (undefined + 1);\nx = ?", "answers":["2","1","NaN","undefined"], "hint":"NaN", "typos": "radio", "id": 20, "_page": 6},
+	{"qText": "What is x equal to?", "qCode": "let x = (undefined + 1);\nx = ?", "answers":["2","1","NaN","undefined","undefined1"], "hint":"NaN", "typos": "radio", "id": 20, "_page": 6},
 	{"qText": "What is x equal to?", "qCode": "let x = (7 / 0);\nx = ?", "answers":["1","Infinity","7","0","NaN","undefined"], "hint":"Infinity", "typos": "radio", "id": 21, "_page": 6},
 	{"qText": "What is x equal to?", "qCode": "let x = (\"$\" + 9 + 9);\nx = ?", "answers":["9","$18","$99","NaN"], "hint":["$99"], "typos": "checkbox", "id": 22, "_page": 6},
 	{"qText": "What is x equal to?", "qCode": "let x = \"4px\"- 2;\nx = ?", "answers":["6xp","2px","2","undefined","NaN"], "hint":"NaN", "typos": "radio", "id": 23, "_page": 6},
@@ -30,5 +30,9 @@
 	{"qText": "What is x.length equal to?", "qCode": "let x = Number(\"  3 \");\nx.length = ?", "answers":["0","1","null","undefined"], "hint":"undefined", "typos": "radio", "id": 28, "_page": 8},
 	{"qText": "What is Sum equal to?", "qCode": "let sum = Boolean(0) + Boolean(1);\nSum = ?", "answers":["0","1","true","false","NaN","undefined"], "hint":"1", "typos": "radio", "id": 29, "_page": 8},
 	{"qText": "What is x equal to?", "qCode": "let x = (typeof alert === 'function') + Boolean('object');\nx = ?", "answers":["-2","-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 30, "_page": 8},
-	{"qText": "What is x equal to?", "qCode": "let x = isNaN(+\"1px\") + isNaN(0/0);\nx = ?", "answers":["-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 31, "_page": 8}
+	{"qText": "What is x equal to?", "qCode": "let x = isNaN(+\"1px\") + isNaN(0/0);\nx = ?", "answers":["-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 31, "_page": 8},
+	{"qText": "What is x equal to?", "qCode": "let x = isNaN(Math.sqrt(-1)) + isFinite(Math.exp(1));\nx = ?", "answers":["-1","0","1","2","NaN","undefined"], "hint":"2", "typos": "radio", "id": 32, "_page": 9},
+	{"qText": "What will the console output?", "qCode": "if( !Number['prototype']['compute'] ){\nNumber['prototype']['compute'] = function(mtd){\nreturn Math[mtd](parseFloat(this, 10));\n}\n}\nconsole.log( (9.5).compute('round') + (9.01).compute('ceil') );", "answers":["18","18.51","19","20","21"], "hint":"20", "typos": "radio", "id": 33, "_page": 9},
+	{"qText": "What will the console output?", "qCode": "if( !Number['prototype']['compute'] ){\nNumber['prototype']['compute'] = function(mtd){\nreturn Math[mtd](parseFloat(this, 10));\n}\n}\nconsole.log( (9.55).toFixed(0) + (0.6).compute('floor') );", "answers":["9","9.6","10","100","1000"], "hint":"100", "typos": "radio", "id": 34, "_page": 9},
+	{"qText": "What will the console output?", "qCode": "let x = Math['min'](2, -3) + Math['max'](2, -3);\nlet y = Math.sign(-2.6);\nconsole.log( x % y );", "answers":["0","1","2","-3","-2","-1","-0"], "hint":"-0", "typos": "radio", "id": 35, "_page": 9}
 ]
