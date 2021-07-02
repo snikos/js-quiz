@@ -9,7 +9,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router>
+      <Router basename="/js-quiz">
         <App />
       </Router>
     </Provider>
