@@ -20,7 +20,7 @@ function App(){
           <Link to="/js-quiz/">Quiz javascript</Link>
           <Link to="/js-quiz/history">History</Link>
           <Link to="/js-quiz/todo">Todo</Link>
-          <Link to="/js-quiz/Dani">Dani</Link>
+          <Link to="/js-quiz/Dani">Full stack dev</Link>
         </nav>
         <div>
           <SelectFile />
