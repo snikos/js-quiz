@@ -13,15 +13,18 @@ ul,ol,li{
   display: flex;
 }
 
-.App-form__result{
+.App-form__boxresult{
   padding: 8px;
 }
-.App-form__result p{
+.App-form__boxresult p{
   font-size: 14px;
   line-height: 16px;
   margin: 2px auto 0;
 }
 
+.App-form__getresult{
+  padding: 8px;
+}
 
 .App-Dani {
   display: flex;
@@ -196,6 +199,7 @@ ul,ol,li{
 
 .dpl-flex {
   display: flex;
+  align-items: baseline;
 }
 .p-10 {
   padding: 10px;
